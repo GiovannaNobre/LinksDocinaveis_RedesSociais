@@ -1,0 +1,80 @@
+    body {
+        background-color: rgb(231, 188, 138);
+    }
+    h1 {
+        text-align: center;
+        color: brown;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h3 {
+        text-align: center;
+        font-style: oblique
+    }
+    h4{
+        text-align: center;
+        font-style: oblique;
+    }
+    .link1{ /*Estilização do link do instagram*/
+        text-align: center;
+        font-size: 150%;
+        width: 250px;
+        height: 30px;
+    }
+    .link1:hover{
+        background-color: brown;
+        color: white;
+        transform: scale(1.2);
+    }
+    .link2{ /*Estilização do link do linkedIn*/
+        font-size: 150%;
+        text-align: center;
+        width: 250px;
+        height: 30px;
+    }
+    .link2:hover{
+        background-color: brown;
+        color: white;
+        transform: scale(1.2);
+    }
+    .link3{ /*Estilização do link do lattes*/
+        font-size: 150%;
+        text-align: center;
+        width: 250px;
+        height: 30px;
+    }
+    .link3:hover{
+        background-color: brown;
+        color: white;
+        transform: scale(1.2);
+    }
+    .link4{ /*Estilização do link do respositório*/
+        font-size: 150%;
+        text-align: center;
+        width: 250px;
+        height: 30px;
+    }
+    .link4:hover{
+        background-color: brown;
+        color: white;
+        transform: scale(1.2);
+    }
+    .minhaFoto{
+        text-align: center;
+        position:static;
+    }
+    img{
+        border-radius: 120px;
+        width: 230px;
+    }
+    a {
+        background-color: brown;
+        font-size: 20px;
+        display: block;
+        margin:auto;
+        background-color: white;
+        color: brown;
+        border: solid 2px brown;
+        border-radius:  20px;
+        transition: 0.5s ease, color 0.5s ease;
+        text-decoration: none;
+    }
